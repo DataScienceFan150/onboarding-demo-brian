@@ -37,7 +37,7 @@ The data is in data/processed_uber_nyc.RData and contains two dataframes:
 2. `zone_polys`
 
 ```{r, echo = FALSE, message = FALSE}
-load("data/processed_uber_nyc.RData")
+load("processed_uber_nyc.RData")
 ```
 
 ### About the data
@@ -140,5 +140,7 @@ ggplot() +
 ```
 
 Insights:
+
+Lots of pockets of activity wihtin Manhattan
 
 * Fill me in with some insightful insights :-)
